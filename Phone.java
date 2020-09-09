@@ -1,3 +1,4 @@
+
 public class Phone {
     public static void main(String[] args) {
         String number = null;
@@ -17,14 +18,16 @@ public class Phone {
             System.out.println(weight);
         }
 
-        //     private receiveCall (String[]){
+       // void receiveCall (String[]){
 
-        //     String setName () {
-        //      this name = name;
-        //    }
-        //    String getNumber() {
-        //   return this.number;
-        //   }
+
+          public void setName (String name){
+          this.name = name;
+        System.out.println("Звонит ");
+
+         //  String getNumber() {
+      //  return this.number;
+         }
 
 
         System.out.println("Звонит ");

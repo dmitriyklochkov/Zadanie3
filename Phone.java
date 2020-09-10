@@ -10,14 +10,14 @@ public class Phone {
         System.out.println(weight);
     }
 
-   // public Phone(String number) {
+    public Phone(String number, String model) { // конструктор
     //   void  setNumber (String number){
      //  this.number = number;
 
        // System.out.println(number);
         //this.number = number;
 
-  // }
+   }
     // System.out.println(name);
 
     //  public  Phone(String number) {
@@ -25,7 +25,7 @@ public class Phone {
 
     //public Phone(String number) {
     //
-     void receiveCall(String name) {
+     void receiveCall(String name) { // метод
 
         //setName (String name) {
           // this.name = name;

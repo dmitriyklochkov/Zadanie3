@@ -1,35 +1,39 @@
-
-import java.io.*;
-import java. util.*;
 public class Phone {
+
+
     public static void main(String[] args) {
-        String number = null;
+       String number = "noy";
         String model = null;
         String weight = null;
         System.out.println(number);
         System.out.println(model);
-        System.out.println(number);
-
-        // public Phone(String name) {
-
-        //    }
-        //   public  Phone(String number) {
-
-
-        //public Phone(String number) {
-        // }
-   //     private receiveCall (String[]){
-
-      //     String setName () {
-         //      this name = name;
-        //    }
-       //    String getNumber() {
-         //   return this.number;
-     //   }
-
-
-            System.out.println("Звонит " );
-      //  }
-
+        System.out.println(weight);
     }
+
+   // public Phone(String number) {
+    //   void  setNumber (String number){
+     //  this.number = number;
+
+       // System.out.println(number);
+        //this.number = number;
+
+  // }
+    // System.out.println(name);
+
+    //  public  Phone(String number) {
+
+
+    //public Phone(String number) {
+    //
+     void receiveCall(String name) {
+
+        //setName (String name) {
+          // this.name = name;
+         // }
+
+        System.out.println("Звонит "+name);
+    }
+    //void getNumber (String number) {
+      //  return this.number;
+  //  }
 }

@@ -18,15 +18,15 @@ public class Phone {
             System.out.println(weight);
         }
 
-       // void receiveCall (String[]){
+        //public static void receiveCall (String name){
 
 
-          public void setName (String name){
-          this.name = name;
+        //  public void setName (String name){
+          //this.name = name;
         System.out.println("Звонит ");
 
-         //  String getNumber() {
-      //  return this.number;
+          public String getNumber() {
+        return this.number;
          }
 
 

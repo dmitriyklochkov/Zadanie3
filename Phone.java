@@ -1,38 +1,39 @@
 
 public class Phone {
+
+
     public static void main(String[] args) {
-        String number = null;
+        String number = "noy";
         String model = null;
         String weight = null;
-        Phone phone = new Phone();
-        {
-            System.out.println(number);
-        }
-        Phone phone1 = new Phone();
-        {
-            System.out.println(model);
-        }
-    //    this.number = number;
-        Phone phone2 = new Phone();
-        {
-            System.out.println(weight);
-        }
+        System.out.println(number);
+        System.out.println(model);
+        System.out.println(weight);
+    }
 
-        //public static void receiveCall (String name){
+    public Phone(String number, String model) { // конструктор
+        //   void  setNumber (String number){
+        //  this.number = number;
 
-
-        //  public void setName (String name){
-          //this.name = name;
-        System.out.println("Звонит ");
-
-          public String getNumber() {
-        return this.number;
-         }
-
-
-        System.out.println("Звонит ");
-        //  }
-
+        // System.out.println(number);
+        //this.number = number;
 
     }
-}
+    // System.out.println(name);
+
+    //  public  Phone(String number) {
+
+
+    //public Phone(String number) {
+    //
+    void receiveCall(String name) { // метод
+
+        //setName (String name) {
+        // this.name = name;
+        // }
+
+        System.out.println("Звонит " + name);
+    }
+    //void getNumber (String number) {
+    //  return this.number;
+    //  }

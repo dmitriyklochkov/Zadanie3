@@ -1,39 +1,21 @@
 
-public class Phone {
+
+import java.util.*;
+
+public class Phone{
+
+    public  void main(String[] args) {
+
+        //Scanner s = new Scanner(System.in);
+       // System.out.println("Введите номер телефона");
+       String number;
+        String model;
+       int weight;
 
 
-    public static void main(String[] args) {
-        String number = "noy";
-        String model = null;
-        String weight = null;
-        System.out.println(number);
-        System.out.println(model);
-        System.out.println(weight);
+
+           // System.out.println(number);
+
+
     }
-
-    public Phone(String number, String model) { // конструктор
-        //   void  setNumber (String number){
-        //  this.number = number;
-
-        // System.out.println(number);
-        //this.number = number;
-
-    }
-    // System.out.println(name);
-
-    //  public  Phone(String number) {
-
-
-    //public Phone(String number) {
-    //
-    void receiveCall(String name) { // метод
-
-        //setName (String name) {
-        // this.name = name;
-        // }
-
-        System.out.println("Звонит " + name);
-    }
-    //void getNumber (String number) {
-    //  return this.number;
-    //  }
+}

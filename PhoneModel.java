@@ -1,15 +1,12 @@
-
-
-import java.util.Scanner;
-
 public class PhoneModel {
     public static void main(String[] args) {
+        String model = "LG";
+        System.out.println("Модель " + model);
         Phone phone = new Phone();
-        Scanner s = new Scanner(System.in);
-        String number = "123456";
-        String model = "Honor";
+        phone.receiveCall("Марк");
+        //  System.out.println("Звонит " + name);
 
-        System.out.println(model);
+        phone.getNumber("LG");
+        // return model;
     }
-
 }

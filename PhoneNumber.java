@@ -1,15 +1,13 @@
-
-
-import java.util.Scanner;
-
 public class PhoneNumber {
     public static void main(String[] args) {
-        Phone phone = new Phone();
-        Scanner s = new Scanner(System.in);
-        String number = "123456";
+        String number = "987654";
+        System.out.println("Номер "+number);
+    Phone phone = new Phone();
+     phone.receiveCall ("Марк");
+       // System.out.println("Звонит " + name);
 
-
-        System.out.println(number);
+  phone.getNumber ("987654");
+        //return number;
     }
-
 }
+

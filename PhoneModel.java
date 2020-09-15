@@ -8,5 +8,8 @@ public class PhoneModel {
 
         phone.getNumber("LG");
         // return model;
+
+        phone.receiveCall("Том","123456");
+        phone.sendMessage("");
     }
 }

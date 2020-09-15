@@ -8,5 +8,7 @@ public class PhoneWeight {
         //System.out.println("Звонит " + name);
 
         phone.getNumber("986543");
+        phone.receiveCall("Том","123456");
+        phone.sendMessage("");
     }
 }

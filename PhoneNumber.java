@@ -8,6 +8,8 @@ public class PhoneNumber {
 
   phone.getNumber ("987654");
         //return number;
+        phone.receiveCall("Том","123456");
+        phone.sendMessage("");
     }
 }
 

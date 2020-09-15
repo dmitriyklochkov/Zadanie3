@@ -34,11 +34,14 @@ public class Phone {
         System.out.println("Звонит " + name+" Номер " + number);
 
     }
-
-    public void sendMessage(String numbers) {
+int i = 0;
+    public void sendMessage(String ...numbers) {
        Scanner s = new Scanner(System.in);
-        numbers = s.nextLine();
-    System.out.println("Номера телефонов, на которые нужно отправить сообщение: " + numbers);
+
+       for (i=0;i< numbers.length;i++) {
+           numbers[i] = s.nextLine();
+       }
+    System.out.println("Номера телефонов, на которые нужно отправить сообщение: " + Arrays.toString(numbers));
    }
 
 }

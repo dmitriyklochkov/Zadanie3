@@ -32,9 +32,6 @@ public class Veterinar {
                 System.out.println("рекомендация: поесть "+i.food + " " + i.lokation);
             }
         }
-    //   Animal animal1 = new Animal();
-    //  Animal animal2 = new Cat();
-        // Animal animal3 = new Horse();
 
     }
 

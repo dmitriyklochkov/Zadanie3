@@ -1,17 +1,15 @@
-public class Dog extends Animal{
+public class Horse extends Animal{
 
-     String food = "кости";
-   String location  = "в конуре";
-  String sound = "рычит";
-   String type = "собака";
-    public static void main(String[] args) {
-    }
-    Dog animal1 = new Dog();
+
+    String food = "кости";
+    String location  = "в конуре";
+    String sound = "рычит";
+    String type = "собака";
+
     @Override
     public void eat(String type, String food) {
         super.eat("собака", "кости");
     }
-
 
     @Override
     public void makeNoise(String type, String sound) {

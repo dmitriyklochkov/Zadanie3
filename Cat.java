@@ -1,5 +1,7 @@
 public class Cat extends Animal {
 
+    private String moustache = null;
+
     @Override
     public void eat(String type, String food) {
         super.eat("кошка", "рыбу");

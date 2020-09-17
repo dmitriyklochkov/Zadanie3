@@ -1,6 +1,6 @@
 public class Dog extends Animal {
-    public static void main(String[] args) {
-    }
+
+    private String colar = null;
 
     @Override
     public void eat(String type, String food) {

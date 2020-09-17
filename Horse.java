@@ -1,5 +1,7 @@
 public class Horse extends Animal {
 
+    private String hoofs;
+
     @Override
     public void eat(String type, String food) {
         super.eat("лошадь", "овес");

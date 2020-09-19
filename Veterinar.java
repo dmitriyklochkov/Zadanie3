@@ -2,14 +2,19 @@ public class Veterinar {
 
     public static void treatAnimal(Animal animal) {
         System.out.println("рекомендация: поесть " + Animal.food + " " + Animal.lokation);
-    }
+   }
 
     public static void main(String[] args) {
+
         Animal[] animals = new Animal[3];
         Animal animal = new Animal();
         animals[0] = new Dog();
         animals[1] = new Cat();
         animals[2] = new Horse();
+        for (Animal e : animals){
+            System.out.print(e.type + " на прием к ветеринару - ");
+            treatAnimal(animal);
+        }
         for (int i = 0; i < 3; i++) {
             switch (i) {
                 case 0:

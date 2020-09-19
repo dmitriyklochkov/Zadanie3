@@ -15,6 +15,6 @@ public class Maine {
         animal3.makeNoise("", "");
         animal3.sleep("", "");
         animal3.eat("", "");
-
     }
 }
+

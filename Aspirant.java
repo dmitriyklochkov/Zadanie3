@@ -1,8 +1,8 @@
 public class Aspirant extends Student {
-     private static String scientificWork;
+    static String scientificWork;
 
     @Override
-    public int getScholarship(double averageMark) {
+    public int getScholarship() {
         if (averageMark == 5.0) {
             scholarship = 200;
         } else {
@@ -11,40 +11,16 @@ public class Aspirant extends Student {
         return scholarship;
     }
 
-    Student[] students = new Student[2];
-    Student student = new Student();
+    public static void main(String[] args) {
+        Student student;
+        student = new Aspirant();
 
+        Student[] staff = new Student[2];
+        staff[0] = new Student();
+        staff[1] = new Aspirant();
+        for (Student e : staff) {
 
-  /*  ;;//firstName, lastName, group, averageMark, scientificWork) {
-      /* this firstName= firstName;
-           this.lastName = lastName;
-           group = group;
-           averageMark =averageMark;
-           scientificWork = scientificWork;
-
-    students[1]=new Aspirant();
-
-    students[0]=new
-
-    Student();
-
-getScholarship( );
-*/
-            public static void main(String[] args) {
-        firstName = "Иван ";
-        lastName = "Иванов ";
-        group = 1;
-       averageMark = 5.0;
-        scientificWork = " научная работа отсутствует";
-                System.out.println(firstName+ lastName+"группа " +group+ " оценка"+averageMark+scientificWork);
-
-
-        Aspirant aspirant = new Aspirant();
-        firstName = "Петр ";
-        lastName = "Петров ";
-        group = 2;
-        averageMark = 4.0;
-        scientificWork = " научная работа есть";
-                System.out.println(firstName+ lastName+"группа " +group+ " оценка"+averageMark+scientificWork);
+            System.out.println(e.getScholarship());
+        }
     }
 }

@@ -1,5 +1,4 @@
 public class Horse extends Animal {
-
     private String hoofs;
 
     @Override

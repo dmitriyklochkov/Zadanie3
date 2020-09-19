@@ -1,6 +1,5 @@
 public class Cat extends Animal {
-
-    private String moustache = null;
+    private String moustache;
 
     @Override
     public void eat(String type, String food) {

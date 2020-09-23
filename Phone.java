@@ -1,39 +1,36 @@
 import java.util.*;
 
 public class Phone {
-    String name;
-    String number;
-    String model;
-    int weight;
-
-    public static void main(String[] args) {
-       // Scanner s = new Scanner(System.in);
-
-    }
-
-    public Phone() {
-    }
+ //    String name;
+ String number;
+   String model;
+ int weight;
 
     public Phone(String name, String number) {
+        model = "LG";
     }
 
-    public Phone(String number, String model, int weight) {
-        this("Mark", "876543");
+   Phone() {
+     int weight =4;
+   }
+     Phone(String name, String number,int weight) {
+         this("Сергей", "1357");
 
-    }
 
-    public void receiveCall(String name) {
+
+}
+      void receiveCall(String name) {
         System.out.println("Звонит " + name);
-    }
+     }
 
-    public String getNumber(String number) {
+    String getNumber(String number) {
         return number;
     }
 
-    public void receiveCall(String name, String number) {
-        System.out.println("Звонит " + name+" Номер " + number);
+     void receiveCall(String name, String number){
+           System.out.println("Звонит " + name + " Номер " + number);
+       }
 
-    }
 int i = 0;
     public void sendMessage(String ...numbers) {
        Scanner s = new Scanner(System.in);

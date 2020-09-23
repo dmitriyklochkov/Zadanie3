@@ -1,6 +1,9 @@
 public class Aspirant extends Student {
-    static String scientificWork;
-
+    private String scientificWork;
+   private String firstName = "Петр";
+    private String lastName = "Петров";
+    private  int group =2;
+    private double averageMark = 4.0;
     @Override
     public int getScholarship() {
         if (averageMark == 5.0) {
@@ -11,16 +14,5 @@ public class Aspirant extends Student {
         return scholarship;
     }
 
-    public static void main(String[] args) {
-        Student student;
-        student = new Aspirant();
 
-        Student[] staff = new Student[2];
-        staff[0] = new Student();
-        staff[1] = new Aspirant();
-        for (Student e : staff) {
-
-            System.out.println(e.getScholarship());
-        }
-    }
 }

@@ -1,11 +1,11 @@
 public class Student {
-    static String firstName;
-    static String lastName;
-    static int group;
-    static double averageMark;
-    static int scholarship;
+    protected String firstName = "Иван";
+    protected String lastName = "Иванов";
+    protected int group = 1;
+    protected double averageMark = 5.0;
+    protected int scholarship;
 
-    public int getScholarship() {
+     int getScholarship() {
         if (averageMark == 5.0) {
             scholarship = 100;
         } else {

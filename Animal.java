@@ -1,9 +1,9 @@
 public class Animal {
 
-    static String food;
-    static String lokation;
-    static String type;
-    static String sound;
+    String food;
+     String location;
+     String type;
+     String sound;
 
     public void makeNoise(String type, String sound) {
         System.out.println(" животное " + type + " издает звук " + sound);
@@ -13,7 +13,7 @@ public class Animal {
         System.out.println(" животное " + type + " ест " + food);
     }
 
-    public void sleep(String type, String lokation) {
-        System.out.println(" животное " + type + " спит " + lokation);
+    public void sleep(String type, String location) {
+        System.out.println(" животное " + type + " спит " + location);
     }
 }

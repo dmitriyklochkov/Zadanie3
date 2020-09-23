@@ -12,7 +12,7 @@ public class Horse extends Animal {
     }
 
     @Override
-    public void sleep(String type, String lokation) {
+    public void sleep(String type, String location) {
         super.sleep("лошадь", "в конюшне");
     }
 }

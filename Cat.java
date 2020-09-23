@@ -1,6 +1,5 @@
 public class Cat extends Animal {
-    private String moustache;
-
+    private String moustache = "пушистые";
     @Override
     public void eat(String type, String food) {
         super.eat("кошка", "рыбу");
@@ -12,7 +11,7 @@ public class Cat extends Animal {
     }
 
     @Override
-    public void sleep(String type, String lokation) {
+    public void sleep(String type, String location) {
         super.sleep("кошка", "дома");
     }
 }

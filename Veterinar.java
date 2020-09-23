@@ -1,6 +1,6 @@
 public class Veterinar {
 
-    public static void treatAnimal(Animal animal) {
+    public  void treatAnimal(Animal animal) {
         System.out.println("рекомендация: поесть " + Animal.food + " " + Animal.lokation);
    }
 
@@ -19,7 +19,7 @@ public class Veterinar {
             switch (i) {
                 case 0:
                     animal.food = " кости";
-                    animal.lokation = " в конуре";
+                    animal.location = " в конуре";
                     animal.type = " cобака";
                     animal.sound = " ррр";
                     System.out.print(animal.type + " на прием к ветеринару - ");
@@ -27,7 +27,7 @@ public class Veterinar {
                     break;
                 case 1:
                     animal.food = " рыбу";
-                    animal.lokation = " дома";
+                    animal.location = " дома";
                     animal.type = " кошка";
                     animal.sound = " мяу";
                     System.out.print(animal.type + " на прием к ветеринару - ");
@@ -35,7 +35,7 @@ public class Veterinar {
                     break;
                 case 2:
                     Animal.food = " овес";
-                    animal.lokation = " в конюшне";
+                    animal.location = " в конюшне";
                     animal.type = " лошадь";
                     animal.sound = " игого";
                     System.out.print(animal.type + " на прием к ветеринару - ");

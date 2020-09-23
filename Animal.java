@@ -1,19 +1,21 @@
-public class Animal {
+public  class Animal {
 
-    String food;
-     String location;
-     String type;
-     String sound;
+  protected   String food;
+    protected String location;
+    protected String type;
+    protected String sound;
 
-    public void makeNoise(String type, String sound) {
+     void makeNoise(String type, String sound) {
         System.out.println(" животное " + type + " издает звук " + sound);
     }
 
-    public void eat(String type, String food) {
+    void eat(String type, String food) {
         System.out.println(" животное " + type + " ест " + food);
     }
 
-    public void sleep(String type, String location) {
+
+
+    void sleep(String type, String location) {
         System.out.println(" животное " + type + " спит " + location);
     }
 }

@@ -3,8 +3,8 @@ import java.util.*;
 public class Phone {
 
     private String number;
-    String model;
-    int weight;
+ protected    String model;
+   protected int weight;
 
     Phone(String name, String number) {
         model = "LG";
